@@ -1,0 +1,84 @@
+body {
+  font-family: monospace;
+}
+.secret-btn {
+  background-color: #eee;
+  color: #eee;
+  border-color: #eee;
+  margin: 10px;
+}
+
+#animal {
+  width: 200px;
+  margin: 10px auto;
+}
+
+#turtles, #insects, #snakes {
+  display: none;
+}
+
+#turtles .well {
+  background: url('../img/turtle.jpg') center;
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+  box-shadow: -2px -3px 5px #e6e6e6;
+}
+
+#snakes .well {
+  background: url('../img/snake.jpg') center;
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+  box-shadow: -2px -3px 5px #e6e6e6;
+}
+
+#insects .well {
+  background: url('../img/insect.jpg') center;
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+  box-shadow: -2px -3px 5px #e6e6e6;
+}
+
+.jumbotron h1{
+  text-shadow: -1px -1px 4px #111;
+}
+.well h1 {
+  font-size: 48px;
+  text-shadow: -1px -1px 4px #111;
+  text-decoration: underline;
+}
+.well ul  {
+  font-size: 20px;
+  text-align: left;
+  margin: 20px 100px;
+  border-radius: 10px;
+  padding: 10px auto;
+  line-height: 36px;
+}
+
+.li-title {
+  list-style: none;
+  text-align: center;
+  font-size: 24px;
+  text-decoration: underline;
+  color: #333;
+}
+#turtles .well ul {
+  background-color: lightgreen;
+}
+
+#snakes .well ul {
+  background-color: rgba(255,255,255,.3 );
+  color: #d5d5d5;
+  text-shadow: 1px 1px black;
+}
+#insects h1 {
+  color: white;
+}
+
+#insects ul {
+  background-color: rgba(255,255,255,.7);
+  text-shadow: 1px 1px black;
+}
