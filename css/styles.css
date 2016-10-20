@@ -12,35 +12,33 @@ body {
   cursor: pointer;
   text-decoration: underline;
 }
+
 #animal {
   width: 200px;
   margin: 10px auto;
 }
 
-#turtles, #insects, #snakes {
+#turtles, #insects, #snakes, #quiz {
   display: none;
 }
+
 
 #turtles .well {
   background: url('../img/turtle.jpg') center;
   background-size: cover;
-  background-position: top;
-  border-radius: 20px;
-  box-shadow: -2px -3px 5px #e6e6e6;
 }
 
 #snakes .well {
   background: url('../img/snake.jpg') center;
   background-size: cover;
-  background-position: top;
-  border-radius: 20px;
-  box-shadow: -2px -3px 5px #e6e6e6;
 }
 
 #insects .well {
   background: url('../img/insect.jpg') center;
   background-size: cover;
-  background-position: top;
+}
+
+.well {
   border-radius: 20px;
   box-shadow: -2px -3px 5px #e6e6e6;
 }
@@ -107,10 +105,24 @@ button {
   width: 150px;
   height: 50px;
 }
+
 .btn-bottom {
   margin-bottom: 200px;
 }
 
 .btn-bottom, .btn-default {
   font-size: 20px;
+}
+
+.liar {
+  display: none;
+}
+
+.snake-window {
+  margin: 0 auto;
+}
+
+.turtle-window {
+  margin: 0 auto;
+  width:300px;
 }
