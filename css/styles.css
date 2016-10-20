@@ -8,6 +8,10 @@ body {
   margin: 10px;
 }
 
+.quiz:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
 #animal {
   width: 200px;
   margin: 10px auto;
@@ -81,4 +85,32 @@ body {
 #insects ul {
   background-color: rgba(255,255,255,.7);
   text-shadow: 1px 1px black;
+}
+
+#quiz li{
+  font-size: 24px;
+  text-align: left;
+  margin: 30px auto;
+
+}
+
+#quiz li .radio {
+  font-size: 18px;
+  text-align: left;
+}
+
+label {
+  font-weight: normal;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+}
+.btn-bottom {
+  margin-bottom: 200px;
+}
+
+.btn-bottom, .btn-default {
+  font-size: 20px;
 }
